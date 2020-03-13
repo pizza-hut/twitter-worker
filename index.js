@@ -26,6 +26,7 @@ app.post('/api/oauth_token', (req, res)=> {
 app.listen(3001);
 console.log("server is listening at 3001");
 
+/*
 // schedule tasks to be run on the server
 cron.schedule("*/1 * * * * *", function() {
   console.log("---------------------");
@@ -41,7 +42,7 @@ cron.schedule("*/1 * * * * *", function() {
   });
   */
 });
+*/
 
 
-
-app.listen("3128");
+//app.listen("3128");
